@@ -1,3 +1,112 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[6].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[2].oneOf[6].use[2]!./node_modules/@next/font/local/target.css?{"path":"app/fonts/monaSans.ts","import":"","arguments":[{"src":[{"path":"./Mona-Sans-BlackNarrow.woff2","weight":"900","style":"normal"},{"path":"./Mona-Sans-BlackNarrowItalic.woff2","weight":"900","style":"italic"},{"path":"./Mona-Sans-BoldNarrow.woff2","weight":"700","style":"normal"},{"path":"./Mona-Sans-BoldNarrowItalic.woff2","weight":"700","style":"italic"},{"path":"./Mona-Sans-LightNarrow.woff2","weight":"300","style":"normal"},{"path":"./Mona-Sans-LightNarrowItalic.woff2","weight":"300","style":"italic"},{"path":"./Mona-Sans-MediumNarrow.woff2","weight":"500","style":"normal"},{"path":"./Mona-Sans-MediumNarrowItalic.woff2","weight":"500","style":"italic"},{"path":"./Mona-Sans-SemiBoldNarrow.woff2","weight":"600","style":"normal"},{"path":"./Mona-Sans-SemiBoldNarrowItalic.woff2","weight":"600","style":"italic"},{"path":"./Mona-Sans-ExtraBoldNarrow.woff2","weight":"800","style":"normal"},{"path":"./Mona-Sans-UltraLightNarrow.woff2","weight":"200","style":"normal"},{"path":"./Mona-Sans-RegularNarrowItalic.woff2","weight":"400","style":"italic"}]}],"variableName":"monaSans"} ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+font-family: '__monaSans_472e94';
+src: url(/_next/static/media/2b2097333e6cec19-s.p.woff2) format('woff2');
+font-display: swap;
+font-weight: 900;
+font-style: normal;
+}
+
+@font-face {
+font-family: '__monaSans_472e94';
+src: url(/_next/static/media/9e19177b909dc5f9-s.p.woff2) format('woff2');
+font-display: swap;
+font-weight: 900;
+font-style: italic;
+}
+
+@font-face {
+font-family: '__monaSans_472e94';
+src: url(/_next/static/media/e0325a535de0cac4-s.p.woff2) format('woff2');
+font-display: swap;
+font-weight: 700;
+font-style: normal;
+}
+
+@font-face {
+font-family: '__monaSans_472e94';
+src: url(/_next/static/media/6968fd4dd9bd5cb1-s.p.woff2) format('woff2');
+font-display: swap;
+font-weight: 700;
+font-style: italic;
+}
+
+@font-face {
+font-family: '__monaSans_472e94';
+src: url(/_next/static/media/642d543dfeb8ec8e-s.p.woff2) format('woff2');
+font-display: swap;
+font-weight: 300;
+font-style: normal;
+}
+
+@font-face {
+font-family: '__monaSans_472e94';
+src: url(/_next/static/media/496f19545cf30b72-s.p.woff2) format('woff2');
+font-display: swap;
+font-weight: 300;
+font-style: italic;
+}
+
+@font-face {
+font-family: '__monaSans_472e94';
+src: url(/_next/static/media/9ec6b988f735f469-s.p.woff2) format('woff2');
+font-display: swap;
+font-weight: 500;
+font-style: normal;
+}
+
+@font-face {
+font-family: '__monaSans_472e94';
+src: url(/_next/static/media/b0ed03b49c87b6f2-s.p.woff2) format('woff2');
+font-display: swap;
+font-weight: 500;
+font-style: italic;
+}
+
+@font-face {
+font-family: '__monaSans_472e94';
+src: url(/_next/static/media/b201ffed9dc20192-s.p.woff2) format('woff2');
+font-display: swap;
+font-weight: 600;
+font-style: normal;
+}
+
+@font-face {
+font-family: '__monaSans_472e94';
+src: url(/_next/static/media/98543342c96067df-s.p.woff2) format('woff2');
+font-display: swap;
+font-weight: 600;
+font-style: italic;
+}
+
+@font-face {
+font-family: '__monaSans_472e94';
+src: url(/_next/static/media/2eea9e61e055ef0c-s.p.woff2) format('woff2');
+font-display: swap;
+font-weight: 800;
+font-style: normal;
+}
+
+@font-face {
+font-family: '__monaSans_472e94';
+src: url(/_next/static/media/6841c901ccede964-s.p.woff2) format('woff2');
+font-display: swap;
+font-weight: 200;
+font-style: normal;
+}
+
+@font-face {
+font-family: '__monaSans_472e94';
+src: url(/_next/static/media/f45953bdf36f5fb3-s.p.woff2) format('woff2');
+font-display: swap;
+font-weight: 400;
+font-style: italic;
+}@font-face {font-family: '__monaSans_Fallback_472e94';src: local("Arial");ascent-override: 117.10%;descent-override: 24.45%;line-gap-override: 0.00%;size-adjust: 68.30%
+}.__className_472e94 {font-family: '__monaSans_472e94', '__monaSans_Fallback_472e94'
+}
+
 /*!**********************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[3]!./app/animations/animate.css ***!
   \**********************************************************************************************************************************************************************************************************************************************************************/

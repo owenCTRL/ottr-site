@@ -45,13 +45,13 @@ const NavBar = () => {
       </Link>
       
       <Link
-        href="#services"
+        href="#offerings"
         data-blobity-magnetic="false"
         onClick={handleScroll}
-        aria-label="Scroll to Services Section"
+        aria-label="Scroll to Offerings Section"
       >
         <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
-          Services
+          Offerings
         </h4>
       </Link>
 

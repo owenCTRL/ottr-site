@@ -8,9 +8,9 @@ import { initialBlobityOptions } from "./utils/BlobityConfig";
 import NavBar from "./navbar/NavBar";
 
 import dynamic from "next/dynamic";
-const Services = dynamic(() => import("./services-section/Services"));
+const Services = dynamic(() => import("./services-section/Offerings"));
 const About = dynamic(() => import("./about-section/About"));
-const Blog = dynamic(() => import("./blog-section/BlogGrid"));
+const Blog = dynamic(() => import("./blog-section/Blog"));
 const Contact = dynamic(() => import("./contact-section/Contact"));
 const Footer = dynamic(() => import("./footer/Footer"));
 
@@ -41,8 +41,8 @@ export default function Home() {
       <main className="flex flex-col items-center justify-center">
         <Hero />
         <Services />
-        <About />
         <Blog />
+        <About />
         <Contact />
         <Footer />
       </main>
