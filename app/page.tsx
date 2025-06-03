@@ -2,6 +2,7 @@
 import Hero from "./hero-section/Hero";
 import useBlobity from "blobity/lib/react/useBlobity";
 import { useEffect } from "react";
+import PreLoader from "./animations/PreLoader/PreLoader";
 import { ScrollerMotion } from "scroller-motion";
 import { initialBlobityOptions } from "./utils/BlobityConfig";
 import NavBar from "./navbar/NavBar";
@@ -32,6 +33,8 @@ export default function Home() {
 
   return (
     <>
+      <PreLoader />
+
       <NavBar />
 
       {/* <ScrollerMotion> */}
