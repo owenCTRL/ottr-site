@@ -4,11 +4,6 @@ import gsap from "gsap";
 
 const tl = gsap.timeline();
 
-// Preloader Animation
-export const preLoaderAnim = () => {
-
-};
-
 export const mobileLanding = () => {
   window.innerWidth < 763 &&
     tl.from(".landing__main2", {
