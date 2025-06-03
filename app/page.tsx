@@ -3,7 +3,7 @@ import Hero from "./hero-section/Hero";
 import useBlobity from "blobity/lib/react/useBlobity";
 import { useEffect } from "react";
 import { ScrollerMotion } from "scroller-motion";
-import PreLoader from "./animations/PreLoader/PreLoaderAnim";
+import PreLoader from "./animations/PreLoader/PreLoader";
 import { initialBlobityOptions } from "./utils/BlobityConfig";
 import NavBar from "./navbar/NavBar";
 
