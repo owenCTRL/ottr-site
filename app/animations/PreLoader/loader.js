@@ -1,10 +1,9 @@
 import gsap from "gsap";
 
 // Declare a general timeline to use in all the animation functions.
-
 const tl = gsap.timeline();
 
-// Preloader Animation
+// Preloader Animation (without the wipe-down)
 export const preLoaderAnim = () => {
   tl.to(".texts-container", {
     duration: 0,
@@ -37,29 +36,20 @@ export const preLoaderAnim = () => {
       y: 80,
       ease: "expo.easeOut",
     })
-    .to(
-      ".preloader",
-      {
-        duration: 1.5,
-        height: "0vh",
-        ease: "Power3.easeOut",
-        onComplete: mobileLanding(),
-      },
-      "-=2"
-    )
-    .to(".preloader", {
-      duration: 0,
+    // Skip the wipe-down animation (height to 0vh)
+    .set(".preloader", {
       css: { display: "none" },
+      onComplete: mobileLanding, // Reference the function, don't call it
     });
 };
 
 export const mobileLanding = () => {
-  window.innerWidth < 763 &&
+  if (window.innerWidth < 763) {
     tl.from(".landing__main2", {
       duration: 1,
-      delay: 0,
       opacity: 0,
       y: 80,
       ease: "expo.easeOut",
     });
+  }
 };
