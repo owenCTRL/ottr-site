@@ -3,9 +3,6 @@ import { useEffect } from "react";
 import "./preloader.css";
 
 const PreLoader = () => {
-  useEffect(() => {
-
-  }, []);
 
   return (
     <div className="preloader">
