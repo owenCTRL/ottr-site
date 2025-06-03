@@ -7,6 +7,11 @@ const PreLoader = () => {
   useEffect(() => {
     preLoaderAnim();
   }, []);
+
+  return (
+    <div className="preloader">
+    </div>
+  );
 };
 
 export default PreLoader;
