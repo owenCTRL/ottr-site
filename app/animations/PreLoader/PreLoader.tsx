@@ -1,17 +1,14 @@
-"use cleint";
-import { useEffect } from "react";
-import { preLoaderAnim } from "./loader";
-import "./preloader.css";
+import gsap from "gsap";
 
-const PreLoader = () => {
-  useEffect(() => {
-    preLoaderAnim();
-  }, []);
+// Declare a general timeline to use in all the animation functions.
+const tl = gsap.timeline();
 
-  return (
-    <div className="preloader">
-    </div>
-  );
+// Mobile landing animation (only if under 763px)
+export const mobileLanding = () => {
+  tl.from(".landing__main2", {
+    duration: 1,
+    opacity: 0,
+    y: 80,
+    ease: "expo.easeOut",
+  });
 };
-
-export default PreLoader;
