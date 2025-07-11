@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[72],{7072:function(_){_.exports={style:{fontFamily:"'__Syne_9794d2', '__Syne_Fallback_9794d2'",fontStyle:"normal"},className:"__className_9794d2"}}}]);
